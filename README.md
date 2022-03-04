@@ -2,7 +2,7 @@
 State initializer + Function Child pattern implementation.
 ## Example
 ```
-import {ProductCard,ProductImage,ProductTitle,ProductButtons} from 'fornari-react-SIFCpattern'
+import {ProductCard,ProductImage,ProductTitle,ProductButtons} from 'fornari-react-templates'
 ```
 ```
 <ProductCard 
@@ -25,11 +25,11 @@ import {ProductCard,ProductImage,ProductTitle,ProductButtons} from 'fornari-reac
             -> here you can write some magic <-
             */
             return (
-            <>
-                <ProductImage />
-                <ProductTitle title='Custom title' />
-                <ProductButtons />
-            </>
+                <>
+                    <ProductImage />
+                    <ProductTitle title='Custom title' />
+                    <ProductButtons />
+                </>
             )
         }
     }

@@ -13,20 +13,25 @@ import {ProductCard,ProductImage,ProductTitle,ProductButtons} from 'fornari-reac
     }}
 >
     {
-    ({
-        count,
-        product,
-        maxCount,
-        isMaxCountReached,
-        increaseBy,
-        reset
-    }) => (
-        <>
-        <ProductImage />
-        <ProductTitle title='Custom title' />
-        <ProductButtons />
-        </>
-    )
+        ({
+            count,
+            product,
+            maxCount,
+            isMaxCountReached,
+            increaseBy,
+            reset
+        }) => {
+            /* 
+            -> here you can write some magic <-
+            */
+            return (
+            <>
+                <ProductImage />
+                <ProductTitle title='Custom title' />
+                <ProductButtons />
+            </>
+            )
+        }
     }
 </ProductCard>
 ```
